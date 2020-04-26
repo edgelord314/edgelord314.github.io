@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  height: auto;
+}
+
+/*typography*/
+
+h1 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  margin-bottom: 1.5em;
+  font-weight: 900;
+}
+
+.title span {
+  font-weight: 300;
+  display: block;
+  font-size: .8em;
+}
+
+@media (min-width:65rem) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+/* buttons*/
+
+.button {
+  display: inline-block;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .35em 1em;
+}
+
+.button-accent {
+  color: #88e03c;
+  border-color: #88e03c;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+  background: #88e03c;
+  color: #232323;
+}
+
+/* header*/
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .75em;
+  color: #FFF;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #DDD;
+}
+
+@media (min-width:65rem) {
+  .logo {
+    float: left;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav li {
+    font-size: 2em; 
+    margin: .125em;
+  }
+}
+
+/*home-hero*/
+.home-hero {
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0;
+  color: #FFF;
+}
+
+@media (min-width: 60rem) {
+  .home-hero {
+    padding-top 35vh;
+  }
+}
+
+/* hero-home*/
+.home-about-textbox {
+  background-color: #232323;
+  padding: 3em;
+  width: 100vw;
+  outline: 2px solid #88e03c;
+  outline-offset: -3em;
+  color: #FFF;
+  position: relative;
+}
+
+.home-about-textbox h1 {
+  color: #88e03c;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -.2em;
+  background: #232323;
+  padding: .1em;
+}
