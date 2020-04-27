@@ -177,7 +177,7 @@ nav a:focus {
   padding-bottom: 10em;
 }
 
-@media (max-width: 60rem) {
+@media (max-width: 80rem) {
   .home-about-textbox h1 {
     font-size: 1.25em;
     padding: .15em;
@@ -234,7 +234,7 @@ nav a:focus {
   }
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 70rem) {
   .portfolio-item {
     width: 33.3333333334%;
     overflow: hidden;

@@ -170,7 +170,7 @@ nav a:focus {
   padding: .1em;
 }
 
-@media (max-width: 60rem) {
+@media (max-width: 80rem) {
   .home-about-textbox h1 {
     font-size: 1.25em;
     padding: .15em;
