@@ -60,15 +60,14 @@ h1 {
   text-decoration: none;
   text-transform: uppercase;
   border-width: 2px;
-
   padding: .35em 1em;
+  text-align: center;
 }
 
 .button-small {
   font-size: .95em;
   font-weight: 700;
   box-sizing: border-box;
-  width: 17%;
   margin-bottom: .5em;
 }
 
@@ -179,7 +178,7 @@ nav a:focus {
   }
   
   .home-about-textbox {
-    width: 60%;
+    width: 100%;
     outline-offset: -2em;
   }
 }

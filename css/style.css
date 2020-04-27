@@ -185,7 +185,7 @@ nav a:focus {
   }
   
   .home-about-textbox {
-    width: 60%;
+    width: 100%;
     outline-offset: -2em;
   }
 }
