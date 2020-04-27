@@ -182,3 +182,13 @@ nav a:focus {
     outline-offset: -2em;
   }
 }
+
+/* footer*/
+footer {
+  clear: both;
+  padding-top: 1em;
+}
+
+footer ul {
+  text-align: left;
+}

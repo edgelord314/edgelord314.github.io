@@ -258,4 +258,9 @@ nav a:focus {
 /* footer*/
 footer {
   clear: both;
+  padding-top: 1em;
+}
+
+footer ul {
+  text-align: left;
 }
