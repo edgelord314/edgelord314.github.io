@@ -5,6 +5,10 @@
   transition: all ease-in-out 200ms;
 }
 
+body.preload *{
+   animation-duration: 0s !important;
+}
+
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
